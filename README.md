@@ -1,6 +1,5 @@
-# win-vue
-
-> A Vue.js project
+# 介绍
+这个 `UI`库主要是学习 [element](https://github.com/ElemeFE/element) 源码，尝试着封装一个自己的组件库，如果后续开发的好的话可以在公司推进。
 
 ## Build Setup
 
