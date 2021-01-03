@@ -3,6 +3,12 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
+import demoBlock from './components/demo-block';
+import WnUI from '../packages/index';
+import '../packages/theme-default/src/index.less'
+
+Vue.component('demo-block', demoBlock);
+Vue.use(WnUI);
 
 Vue.config.productionTip = false;
 

@@ -12,9 +12,9 @@ Object.keys(navConfig).forEach(key => {
 
 const addComponent = (router) => {
   router.forEach(item => {
-    if (item.children) {
-      addComponent(item.children);
-      routes = routes.concat(item.children);
+    if (item.items) {
+      addComponent(item.items);
+      routes = routes.concat(item.items);
     } else {
       if (item.type === 'pages') {
         item.component = r => require.ensure([], () =>
@@ -28,7 +28,6 @@ const addComponent = (router) => {
 }
 
 addComponent(routes);
-
 export default new Router({
   routes
 });

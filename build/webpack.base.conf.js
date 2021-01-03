@@ -131,7 +131,7 @@ module.exports = {
         test: /\.md$/,
         loader: 'vue-markdown-loader',
         options: vueMarkdown
-      }
+      },
     ]
   },
   node: {
