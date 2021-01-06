@@ -28,14 +28,11 @@
         type: String,
         default: 'default'
       },
-      size: {
-        type: String,
-        default: 'default'
-      },
       icon: {
         type: String,
         default: ''
       },
+      size: String,
       loading: Boolean,
       plain: Boolean,
       disabled: Boolean,
