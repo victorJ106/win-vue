@@ -1,6 +1,6 @@
 {
   "name": "win-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Component Library for Vue.js",
   "author": "victorJ106 <victorj818@163.com>",
   "main": "lib/index.js",
