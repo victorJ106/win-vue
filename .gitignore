@@ -6,7 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 /test/unit/coverage/
 
-lib
+lib/
 
 # Editor directories and files
 .idea

@@ -4,7 +4,7 @@ import Vue from 'vue';
 import App from './App';
 import router from './router';
 import demoBlock from './components/demo-block';
-import WnUI from '../packages/index';
+import WnUI from '../lib/index';
 import '../packages/theme-default/src/index.less';
 /* eslint-disable */
 import hljs from 'highlight.js';
