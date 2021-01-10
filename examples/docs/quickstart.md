@@ -12,8 +12,8 @@
 
 ```javascript
 import Vue from 'vue';
-import WinUi from 'win-ui';
-import 'win-ui/lib/theme-default/index.css';
+import WinUi from 'bkrwin-ui';
+import 'bkrwin-ui/lib/theme-default/index.css';
 import App from './App.vue';
 
 Vue.use(WinUi);
@@ -45,7 +45,7 @@ npm install babel-plugin-component -D
     [
       "component",
       {
-        "libraryName": "win-ui",
+        "libraryName": "bkrwin-ui",
         "styleLibraryName": "theme-default"
       }
     ]
@@ -57,7 +57,7 @@ npm install babel-plugin-component -D
 
 ```javascript
 import Vue from 'vue';
-import { Button } from 'win-ui';
+import { Button } from 'bkrwin-ui';
 import App from './App.vue';
 
 Vue.component(Button.name, Button);
@@ -76,7 +76,7 @@ new Vue({
 import Vue from 'vue';
 import {
   Button,
-} from 'win-ui';
+} from 'bkrwin-ui';
 
 Vue.use(Button);
 ```
@@ -89,15 +89,15 @@ Vue.use(Button);
 
 ```js
 import Vue from 'vue';
-import WinUi from 'win-ui';
+import WinUi from 'bkrwin-ui';
 Vue.use(WinUi, { size: 'small', zIndex: 3000 });
 ```
 
-按需引入 win-ui
+按需引入 bkrwin-ui
 
 ```js
 import Vue from 'vue';
-import { Button } from 'win-ui';
+import { Button } from 'bkrwin-ui';
 
 Vue.prototype.$winui = { size: 'small', zIndex: 3000 };
 Vue.use(Button);
@@ -107,5 +107,5 @@ Vue.use(Button);
 
 ### 开始使用
 
-至此，一个基于 Vue 和 Win-ui 的开发环境已经搭建完毕，现在就可以编写代码了。各个组件的使用方法请参阅它们各自的文档。
+至此，一个基于 Vue 和 bkrwin-ui 的开发环境已经搭建完毕，现在就可以编写代码了。各个组件的使用方法请参阅它们各自的文档。
 

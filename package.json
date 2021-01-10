@@ -1,5 +1,5 @@
 {
-  "name": "win-ui",
+  "name": "bkrwin-ui",
   "version": "1.0.1",
   "description": "A Component Library for Vue.js",
   "author": "victorJ106 <victorj818@163.com>",
@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
+    "element-ui": "^2.14.1",
     "vue": "^2.5.2",
     "vue-markdown-loader": "^2.2.3",
     "vue-router": "^3.4.9"
