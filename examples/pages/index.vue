@@ -18,6 +18,7 @@ export default {};
   .pg-index {
     text-align: center;
     .head {
+      margin-top: 100px;
       color: #8994C6;
       font-size: 22px;
     }
